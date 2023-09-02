@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Public Journal</title>
+    <style>
+      @media (min-width: 576px) {
+        .main-content {
+          max-width: 540px;
+        }
+      }
+      @media (min-width: 768px) {
+        .main-content {
+          max-width: 740px;
+        }
+      }
+      @media (min-width: 992px) {
+        .main-content {
+          max-width: 960px;
+        }
+      }
+      @media (min-width: 1200px) {
+        .main-content {
+          max-width: 1140px;
+        }
+      }
+
+      .main-content {
+        width: 100%;
+        padding: 20px 15px 20px 15px;
+        margin-right: auto;
+        margin-left: auto;
+      }
+      body {
+        background-color: #111111;
+      }
+      header {
+        padding-left: none;
+        padding-top: 20px;
+      }
+      #header {
+        font-size: 50px;
+        font-weight: bold;
+        height: 55px;
+        width: 464px;
+        padding-left: none;
+        position: fixed;
+        background: transparent;
+        border: none;
+        font-family: garamond;
+        color: white;
+      }
+      h4 {
+        padding-top: 20px;
+        font-style: italic;
+        font-weight: 100;
+        font-size: 30px;
+        position: fixed;
+        padding-bottom: 50px;
+        padding-left: 30px;
+        color: white;
+      }
+      .main-content {
+        grid-area: "main-content";
+        grid-template-rows: 500px;
+        grid-template-columns: 500px;
+        display: grid;
+        display: flex;
+        padding-top: 150px;
+        padding-left: 270px;
+        padding-right: 270px;
+      }
+      #buttons {
+        position: center;
+      }
+
+      #buttons a > #button1 {
+        height: 500px;
+        width: 800px;
+        background-image: url(image1.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        background-size: cover;
+        border: none;
+        font-family: garamond;
+        font-size: 45px;
+        padding-right: 450px;
+        padding-left: 100px;
+        white-space: normal;
+        text-align: left;
+        margin-bottom: 90px;
+      }
+      #button1:hover {
+        opacity: 0.6;
+        cursor: pointer;
+        animation-duration: 0.1sec;
+      }
+      #buttons a > #button2 {
+        height: 500px;
+        width: 800px;
+        background-image: url(image2.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        background-size: cover;
+        border: none;
+        font-family: garamond;
+        font-size: 45px;
+        padding-right: 450px;
+        padding-left: 100px;
+        white-space: normal;
+        text-align: left;
+        color: white;
+        margin-bottom: 90px;
+      }
+      #button2:hover {
+        opacity: 0.6;
+        cursor: pointer;
+        animation-duration: 0.1sec;
+      }
+      #buttons a > #button3 {
+        height: 500px;
+        width: 800px;
+        background-image: url(image3.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        background-size: cover;
+        border: none;
+        font-family: garamond;
+        font-size: 45px;
+        padding-right: 450px;
+        padding-left: 100px;
+        white-space: normal;
+        text-align: left;
+        color: white;
+        margin-bottom: 90px;
+      }
+      #button3:hover {
+        opacity: 0.6;
+        cursor: pointer;
+        animation-duration: 0.1sec;
+      }
+      #buttons a > #button4 {
+        height: 500px;
+        width: 800px;
+        background-image: url(image4.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        background-size: cover;
+        border: none;
+        font-family: garamond;
+        font-size: 45px;
+        padding-right: 450px;
+        padding-left: 100px;
+        white-space: normal;
+        text-align: left;
+        color: white;
+        margin-bottom: 90px;
+      }
+      #button4:hover {
+        opacity: 0.6;
+        cursor: pointer;
+        animation-duration: 0.1sec;
+      }
+      #buttons a > #button5 {
+        height: 500px;
+        width: 800px;
+        background-image: url(image5.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        background-size: cover;
+        border: none;
+        font-family: garamond;
+        font-size: 45px;
+        padding-right: 450px;
+        padding-left: 100px;
+        white-space: normal;
+        text-align: left;
+        color: white;
+        padding-top: 200px;
+        margin-bottom: 90px;
+      }
+      #button5:hover {
+        opacity: 0.6;
+        cursor: pointer;
+        animation-duration: 0.1sec;
+      }
+    </style>
+  </head>
+  <body>
+    <header><button id="header">The Public Journal</button></header>
+    <h4>Imagined and Strange Worlds Within Words</h4>
+    <div class="main-content">
+      <div id="buttons">
+        <a href="art-and-everything-nice.html"
+          ><button id="button1">Art and Everything Nice</button></a
+        >
+        <a href="non-fiction-essays.html"
+          ><button id="button2">Non-fiction Essays</button></a
+        >
+        <a href="short-stories.html"
+          ><button id="button3">Short Stories</button></a
+        >
+        <a href="thoughts-and-thoughts.html"
+          ><button id="button4">Thoughts and Thoughts</button></a
+        >
+        <a href="vague-poetry.html"
+          ><button id="button5">Vague Poetry</button></a
+        >
+      </div>
+    </div>
+    <footer>
+      <div>
+        <div>Contact</div>
+        <div><a href=""></a>Email</div>
+      </div>
+    </footer>
+  </body>
+</html>

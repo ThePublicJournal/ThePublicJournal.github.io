@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Public Journal</title>
+    <style>
+      #navbar {
+        background-color: transparent; /* Black background color */
+        position: fixed; /* Make it stick/fixed */
+        top: 0; /* Stay on top */
+        width: 100%; /* Full width */
+        transition: top 0.3s; /* Transition effect when sliding down (and up) */
+        font-family: garamond;
+      }
+
+      /* Style the navbar links */
+      #navbar a {
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 15px;
+        text-decoration: none;
+      }
+
+      #navbar a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+      .column {
+        float: left;
+        width: 50%;
+        position: fixed;
+      }
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      body {
+        background-color: #111111;
+      }
+      header {
+        font-size: 50px;
+        font-style: italic;
+        height: 60px;
+        width: 450px;
+        padding-left: 10px;
+        font-family: garamond;
+        color: white;
+      }
+      .header {
+        padding-top: 60px;
+        padding-left: 10px;
+      }
+      #content {
+        padding-left: 50px;
+        padding-top: 50px;
+      }
+
+      #image-button1 {
+        height: 400px;
+        width: 600px;
+        background-image: url();
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        border: none;
+        background: transparent;
+      }
+      #image-button1:hover {
+        opacity: 0.6;
+        cursor: pointer;
+        animation-duration: 0.1sec;
+      }
+      .titles {
+        padding-top: 200px;
+        padding-left: 10px;
+      }
+      .titles a {
+        color: white;
+        font-size: 20px;
+        font-family: garamond;
+        text-decoration: none;
+      }
+      #button-text:hover {
+        opacity: 0.6;
+        cursor: pointer;
+        animation-duration: 0.1sec;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="navbar">
+      <a href="landing-pagev2.html">The Public Journal</a>
+      <a href="art-and-everything-nice.html">Art and Everything Nice</a>
+      <a href="non-fiction-essays.html">Non-Fiction Essays</a>
+      <a href="short-stories.html">Short Stories</a>
+      <a href="vague-poetry.html">Vague Poetry</a>
+    </div>
+    <div class="row">
+      <div class="column"></div>
+      <div class="column"></div>
+    </div>
+    <div class="header">
+      <header>Thoughts and Thoughts</header>
+    </div>
+    <div id="content">
+      <div class="row">
+        <div class="column">
+          <button id="image-button1"></button
+          ><link rel="article1" href="#article1" />
+        </div>
+        <div class="column">
+          <div class="titles">
+            <a href="#article1"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
